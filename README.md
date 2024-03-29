@@ -13,7 +13,7 @@ But instead of upsampling and finding A and B values of the predicted channels f
 ## Process
 
 Around 200000 images from imagenet were used to train. Images used were of resized to 32*32, 64*64 and 128*128.
-Initially the models were built using tensorflow. Further details can be found here: https://github.com/Arghyadeep/Image-Colorization-using-CNN/blob/master/report/final%20report.pdf
+Initially the models were built using tensorflow.
 Next 128*128 sized images were trained using Keras, which made things simpler. The network had a tendency to quickly overfit and hence hyperparamter tuning was essential using a validation set. The hyperparamters tuned were:
 
 1. Kernel size
