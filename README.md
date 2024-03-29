@@ -23,15 +23,7 @@ Next 128*128 sized images were trained using Keras, which made things simpler. T
 5. Batch Size
 6. Stride
 
-## Results
 
-The following are the results on 32*32 images (Left: Grayscale, Middle: Ground Truth, Right: Predicted image)
-
-![alt text](https://github.com/Arghyadeep/Image-Colorization-using-CNN/blob/master/result32.png)
-
-The following are the results on 64*64 images (Right: Ground truth, Left: Predicted image)
-
-![alt text](https://github.com/Arghyadeep/Image-Colorization-using-CNN/blob/master/result64.png)
 
 
 
